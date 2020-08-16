@@ -1,2 +1,2 @@
-# GOT_video
+# Team Bio Assignment
 Update this with a proper readme doc

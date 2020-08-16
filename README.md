@@ -1,2 +1,2 @@
 # Team Bio Assignment
-Update this with a proper readme doc
+Homework Assignment for the course Multimedia Authoring 2 from the Interactive Design Program at Fanshawe College.

@@ -1,0 +1,146 @@
+.fas {
+font-size: 2em;
+color: white;
+cursor: pointer;
+}
+
+@font-face
+{
+font-family: DirtyHeadline;
+src: url(../assets/dirty_headline-webfont.woff);
+}
+
+body {
+display:flex;
+flex-direction:column;
+justify-content:center;
+background-image: url(../images/grungeBG.jpg);
+background-repeat: no-repeat;
+background-position: fixed;
+background-size:cover;
+background-color: rgba(255, 255, 255);
+font-size: 16px;
+height:100vh;
+}
+
+h1 {
+font-family:'DirtyHeadline', sans-serif;
+color: white;
+margin-top: 30px;
+font-size: 3em;
+color:rgba(255, 90, 0);
+}
+
+main {
+position: relative;
+width: 100%;
+text-align: center;
+}
+
+.bodycontainer
+{
+display:flex;
+flex-direction:column;
+justify-content:center;
+background-color:rgba(255, 255, 255, 0.8);
+}
+
+#imageContainer
+{
+width: 600px;
+height: 360px;
+margin: 70px auto 0 auto;
+overflow: hidden;
+border-radius: 20px;
+}
+
+.teamDescriptionContainer
+{
+height:200px;
+}
+
+.teamMemberInfo
+{
+color: white;
+width: 70%;
+font-family:sans-serif;
+font-size: 1.25em;
+line-height: 25px;
+color:rgba(0, 0, 0);
+margin: 0 auto;
+margin-top: 1em;
+}
+
+#profileImages
+{
+position: relative;
+width: 7000px;
+transition: all .5s;
+}
+
+#profileImages img
+{
+float: left;
+}
+
+#bottomNav
+{
+margin-top: 40px;
+}
+
+#navList li
+{
+display: inline;
+list-style-type: none;
+padding: 0px 10px;
+cursor: pointer;
+}
+
+.iconContainer
+{
+width: 51px;
+height: 54px;
+display: inline-block;
+overflow: hidden;
+background-image: url(../images/GOT_sprites.png);
+background-repeat: no-repeat;
+margin-bottom:20px;
+transition: transform .4s;
+border-radius:30px;
+}
+
+.sigilContainer:active
+{
+background-color:rgba(0, 180, 230, 0.3);
+box-shadow:0px 0px 50px 25px rgba(0, 180, 230, 0.4);
+}
+
+.sandro
+{
+background-position: 0px -54px;
+}
+
+.sandro:hover
+{
+background-position: 0px 0px;
+}
+
+.superman
+{
+background-position: -50.5px -54px;
+}
+
+.superman:hover
+{
+background-position: -51px 0px;
+}
+
+.velociraptor
+{
+background-position: -101px -54px;
+}
+
+.velociraptor:hover
+{
+background-position: -101px 0px;
+}
